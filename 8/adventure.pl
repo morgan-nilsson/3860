@@ -20,6 +20,7 @@ door(kitchen, office).
 door(hall, kitchen).
 door(hall, 'dining room').
 door(kitchen, cellar).
+door(kitchen, 'dining room').
 
 % List things in a place
 list_things(Place) :-
